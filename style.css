@@ -66,6 +66,8 @@ section {
 
 p {
     text-shadow: 0.4px 0.4px 0px rgba(255, 255, 255, 0.5);
+    color: white;
+    text-shadow: 2px 2px 0px black;
 }
 
 .t1 {
@@ -108,14 +110,17 @@ p {
 
 .translucent {
     background-color: rgba(0, 0, 0, 0.60);
-    color: white;
     display: inline-block;
     padding: 15px;
-    text-shadow: 2px 2px 0px black;
 }
 
 footer {
     background-color: var(--color6);
-    padding: 5px 2px 2px 2px;
+    padding: 10px;
     font-size: 0.8em;
+}
+
+.dev {
+    color: black;
+    text-shadow: 2px 2px 0px rgb(255, 255, 255);
 }
